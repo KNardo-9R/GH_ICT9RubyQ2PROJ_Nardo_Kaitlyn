@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pipinong Pagkain</title>
+
+	<!-- SETUP BOOTSTAP: link to Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- link to JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<!-- Add style -->
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	
+</head>
+<body>
+
+<!-- NAVIGATION -->
+
+  <nav class="nav nav-bar-expand-md bg-light">
+
+    <div class=nav>
+
+      <a class="navbar-brand"><img src="logo.png" alt="site logo" class="rounded-pill" style="width:40px;"></a>
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#categories">Categories</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" href="#submit">Submit Recipe</a>
+        </li>
+      </ul>
+
+    </div>
+
+      <form class="search d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="search btn btn-warning" type="button">Search</button>
+      </form>
+
+  </nav>
+
+<!-- TAB PANES -->
+  	<div class="tab-content mt-5 mb-5">
+
+<!-- HOME -->
+    	<div class="tab-pane container active" id="home">
+      		<div class="home mb-3 mt-4">
+
+			    <h2>Welcome to Pipinong Pagkain!</h2>
+
+			    <p>A variety of recipes for Filipino food, all in one website!<p>
+
+			    <img src="home image.png" class="img-thumbnail mx-auto d-block" alt="home image"><a href="https://www.vistaresidences.com.ph/blog/top-7-filipino-food-handaan-recipes-to-do-inside-your-condo"></a>
+
+			</div>
+		</div>
+
+<!-- CATEGORIES-->
+		<div class="tab-pane container fade" id="categories">	
+			<div class="categories mb-3 mt-4">
+				<div class="row">
+					<div class="snacks col">
+					<br>
+					<h3>Snacks</h3>
+
+						<div class="card">
+						  	<div class="card-body">
+							    <h4 class="card-title">Turon</h4>
+							    <img src="turon.png" class="img-thumbnail mx-auto d-block" alt="Turon">	
+							    <br>
+							    <p class="card-text">A bananana wrapped in spring roll drenched in caramel.</p>
+							    <a href="turon.html" class="card-link">View Recipe</a>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-body">
+								<h4 class="card-title">Cheese Puto</h4>
+							    <img src="puto.jpg" class="img-thumbnail mx-auto d-block" alt="Puto">
+							    <br>
+							    <p class="card-text">Steamed cake, with a touch of cheese and pinoy.</p>
+							    <a href="puto.html" class="card-link">View Recipe</a>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-body">
+								<h4 class="card-title">Pandesal</h4>
+							    <img src="pandesal.jpg" class="img-thumbnail mx-auto d-block" alt="Pandesal">
+							    <br>
+							    <p class="card-text">A Filipino bread roll---magically puffy and best when hot.</p>
+							    <a href="pandesal.html" class="card-link">View Recipe</a>
+							</div>
+						</div>
+					</div>
+
+				<div class="desserts col">
+					<br>
+					<h3>Desserts</h3>
+
+						<div class="card">
+						  	<div class="card-body">
+							    <h4 class="card-title">Halo-halo</h4>
+							    <img src="halo.jpg" class="img-thumbnail mx-auto d-block" alt="Halo-halo">	
+							    <br>
+							    <p class="card-text">An assembly of a diverse array of nutritious ingredients and ice cream in one glass.</p>
+							    <a href="halo.html" class="card-link">View Recipe</a>
+							</div>
+						</div>
+
+						<div class="card">
+						  	<div class="card-body">
+							    <h4 class="card-title">Leche flan</h4>
+							    <img src="leche.jpg" class="img-thumbnail mx-auto d-block" alt="Leche">	
+							    <br>
+							    <p class="card-text">Egg and milk with soft caramel on top, a creamy dessert that does not use cream.</p>
+							    <a href="leche.html" class="card-link">View Recipe</a>
+							</div>
+						</div>
+
+						<div class="card">
+						  	<div class="card-body">
+							    <h4 class="card-title">Mamon</h4>
+							    <img src="mamon.jpg" class="img-thumbnail mx-auto d-block" alt="Mamon">	
+							    <br>
+							    <p class="card-text">Traditional filipino sponge cake, an original for all pinoys.</p>
+							    <a href="mamon.html" class="card-link">View Recipe</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!-- ABOUT-->
+		<div class="tab-pane container fade" id="about">
+		    <div class="about mb-3 mt-4">
+
+				<h2>About Pipinong Pagkain</h2>
+
+				<br>
+
+				<p>Pipino, in tagalog, is translated to "cucumber" in english. The title "Pipinong Pagkain" is frequently mistakenly translated to "Cucumber Food", but the real meaning of the title, which lies beneath the depths of formal translation, is "Pilipinong Pagkain." The inherent and sole aim of this website is to provide the masses with not only accessible Filipino recipes but also provide an opportunity for people to share recipies that they would like to push to the light of day. </p>
+
+				<br>
+
+				<h3>What We Offer</h3>
+					<ul type="square">
+							<li>An avenue to upload your own recipes</li>
+							<li>Filipino cuisine in two categories</li>
+							<li>Fact-checked and approved recipes of said Filipino cuisine</li>
+					</ul>
+
+				<br>
+				
+				<p>From ages 9 to 90 and medieval to industrial, Pipinong Pagkain is always here to serve. The country, the people, and most especially, your appetite. 
+
+				<br>
+
+			</div>
+		</div>
+
+<!-- SUBMIT -->
+		<div class="tab-pane container fade" id="submit">
+			<br>
+		      <div class="form">
+		      	<h2>Submit Your Recipe</h2>
+			      	<form>
+						<div class="mb-3 mt-4">
+							<div class="mt-3">
+								<label for="interest">Recipe Title</label>
+							    	<textarea rows="2" cols="2" class="form-control" id="interest"></textarea>
+
+							    <label for="interest">Ingredients</label>
+							    	<textarea rows="2" cols="3" class="form-control" id="interest"></textarea>
+
+							    <label for="interest">Instructions</label>
+							    	<textarea rows="5" cols="50" class="form-control" id="interest"></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-primary mt-3" placeholders="Type here..">Submit</button>	
+						</div>
+			  </div>
+		</div>				              
+
+	<div class="footer mt-5">
+	    <h5><a href="https://knardo-9r.github.io/Q2EX2/">Kaitlyn Nardo | 9-Ruby</a></h5>
+	</div>
+
+</body>
+</html>
